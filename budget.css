@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+.section-1 {
+    background-color: black;
+    padding: 3rem 0 13rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.head-1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    font-size: 3rem;
+}
+
+.head-2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+}
+
+.main-div {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.income-0{
+    font-size: 2rem;
+}
+.zero{
+    font-size: 2.1rem;
+}
+
+.div-2 {
+    color: white;
+    display: inline-flex;
+    border: 2px solid white;
+    gap: 10rem;
+    padding: .8rem 8rem;
+    border-radius: 1rem;
+    background-color: blue;
+}
+.minus{
+    color: black;
+}
+.div-3 {
+    padding: .8rem 4rem;
+    margin-top: 3rem;
+    background-color: red;
+    border-radius: 1rem;
+    color: white;
+    display: inline-flex;
+    border: 2px solid white;
+    gap: 10rem;
+}
+.section-2{
+    background-color: silver;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 2.3rem;
+}
+.btn{
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    border-radius: 2rem;
+    background-color: rgb(57, 218, 233);
+}
+
+#value{
+    padding: 1rem;
+    background-color: yellow;
+    border-radius: 2rem;
+    font-size: 1.7rem;
+}
+#text-1{
+    padding: 1rem;
+    background-color: yellow;
+    border-radius: 2rem;
+    font-size: 1.7rem; 
+}
+#text-1::placeholder{
+    color: black;
+}
+#value::placeholder{
+    color: black;
+}
+.sec-2-div{
+display: flex;
+    gap: 2rem;
+}
+.last-div{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.6rem;
+    padding: 4rem 0;
+    color: aqua;
+}
+.expances{
+    color: brown;
+}
